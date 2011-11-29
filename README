@@ -1,0 +1,1 @@
+This is a page with a form for converting fancy characters to HTML entities. It is built to work with language files for the Laravel framework. It preserves <, >, and quotes because that is useful.
