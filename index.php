@@ -2,7 +2,7 @@
 
 if (isset($_POST['content'])) {
 
-	$content = $_POST['content'];
+	$content = $_POST['content']; 	// not concerned about security - this is for local use
 	$result = htmlentities($content, ENT_NOQUOTES, null, true);
 	
 	// run it again to convert the &s to &amp;s so the page doesn't re-encode html entities when displaying them
